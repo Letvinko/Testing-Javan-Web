@@ -7,7 +7,7 @@ driver.maximize_window()
 driver.get("https://javan.co.id/career")
 print("Page ",driver.title)
 
-inputfield = ['Programing Java','Programing Java Script','','/programmer-php/','00989']
+inputfield = ['Programmer Java','Programing Java Script','','/programmer-php/','00989']
 
 
 def test_logic(inputfield,idx):
