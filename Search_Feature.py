@@ -16,6 +16,7 @@ def test_logic(inputfield,idx):
     element.send_keys(inputfield[idx])
     python_button = driver.find_elements_by_xpath("/html/body/div[2]/section/div[2]/form/button")[0]
     python_button.click()
+    # element.clear()
     time.sleep(7)
     if idx != (len(inputfield)-1):
         python_button = driver.find_elements_by_xpath("/html/body/div[1]/div/div/div[2]/ul/li[7]/a")[0]
